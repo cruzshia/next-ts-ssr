@@ -112,6 +112,7 @@ class Album extends React.Component<Props> {
 }
 
 /*
+example of functional component to be wrapped with withTranslation
 interface AlumComponent<Prop> extends React.FunctionComponent<Prop> {
   getInitialProps?: () => Promise<{
     namespacesRequired: Array<string>
