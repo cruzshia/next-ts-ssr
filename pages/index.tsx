@@ -7,7 +7,7 @@ import { withTranslation } from '@App/server/i18n'
 class Index extends React.PureComponent<WithTranslation> {
   static async getInitialProps() {
     return {
-      namespacesRequired: ['common']
+      namespacesRequired: ['common'],
     }
   }
   render() {
@@ -18,5 +18,4 @@ class Index extends React.PureComponent<WithTranslation> {
     )
   }
 }
-
 export default withTranslation('common')(Index)
